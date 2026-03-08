@@ -52,6 +52,16 @@ All Nordix Desktop configuration files are stored in:
 
 This keeps Nordix settings separate from any manual Hyprland configuration. The main Hyprland config sources these files.
 
+## Windowrules.conf - animations.conf - keybind.conf - color.conf
+These are part of Yggdrasil's foundation and are not handled in the System Settings GUI, that would be unsustainable. They are however very well documented, so anyone can change them if they wish. 
+
+Read more about them here:
+
+- [**Nordix Windorules**]
+- [**Nordix Keybinds**]
+- [**Nordix Animations**]
+- [**color**]
+
 ## Requirements
 
 - Hyprland
