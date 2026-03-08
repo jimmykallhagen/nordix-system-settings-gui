@@ -57,7 +57,7 @@ These are part of Yggdrasil's foundation and are not handled in the System Setti
 
 Read more about them here:
 
-- [**Nordix Windorules**]
+- [**Nordix Windorules**](/windowrules/README-windowrules.md)
 - [**Nordix Keybinds**]
 - [**Nordix Animations**]
 - [**color**]
