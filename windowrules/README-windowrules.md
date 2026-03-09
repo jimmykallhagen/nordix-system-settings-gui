@@ -7,12 +7,12 @@ Window rules configuration for the Yggdrasil desktop environment.
 Yggdrasil uses a two-tier window rules system that allows users to customize behavior while preserving system defaults.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Hyprland Configuration                       │
-├─────────────────────────────────────────────────────────────────┤
-│  source = /usr/lib/nordix/yggdrasil/config/system-windowrules.conf  │  ← System defaults (read first)
-│  source = ~/.config/nordix/user/windowrules/user-windowrules.conf   │  ← User overrides (read last)
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                       Hyprland Configuration                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│  source = /usr/share/yggdrasil/hyprland/config/system-windowrules.conf  │  <- System defaults (read first)
+│  source = ~/.config/nordix/user/windowrules/user-windowrules.conf       │  <- User overrides (read last)
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 **Last rule wins** - User rules override system defaults automatically.
