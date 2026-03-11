@@ -499,8 +499,8 @@ class NordixLayoutWindow(Adw.ApplicationWindow):
         master_group.add(self.widgets['m_orientation'])
 
         self.widgets['m_mfact'] = SliderRow(
-            "Master Factor", "Master window size as percentage of screen [0.1 - 0.9]",
-            0.1, 0.9, 0.05, self.settings.settings['m_mfact'],
+            "Master Factor", "Master window size as percentage of screen [0.1 - 1.0]",
+            0.1, 1.0, 0.05, self.settings.settings['m_mfact'],
             lambda v: self.on_value_changed('m_mfact', v), digits=2)
         master_group.add(self.widgets['m_mfact'])
 
